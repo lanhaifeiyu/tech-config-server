@@ -6,8 +6,9 @@ spring:
             server:
                 git:
                     uri: https://github.com/lanhaifeiyu/tech-config-repo.git
-                    username: yu_ronghua@126.com #lhfeiyu-robot
+                    #lhfeiyu-robot
+                    username: yu_ronghua@126.com
                     password: keep123!
-                    search-paths: tech-config
+                    search-paths: tech-config-dir
     application:
         name: tech-config-server
