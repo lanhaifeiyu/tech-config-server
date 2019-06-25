@@ -10,5 +10,17 @@ spring:
                     username: yu_ronghua@126.com
                     password: keep123!
                     search-paths: tech-config-dir
+            bus:
+                trace:
+                    enabled: true
     application:
         name: tech-config-server
+    rabbitmq:
+        host: 182.61.49.180
+        port: 5672
+        username: lh
+        password: keep123!
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://182.61.49.180:8761/eureka/
