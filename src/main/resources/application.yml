@@ -12,7 +12,7 @@ spring:
                     search-paths: tech-config-dir
             bus:
                 trace:
-                    enabled: true
+                    enabled: false
     application:
         name: tech-config-server
     rabbitmq:
